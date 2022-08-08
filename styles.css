@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: cursed;
+    src: url(CursedTimerULiL.ttf);
+}
+
+body{
+    background-color:rgb(240, 204, 185);
+    opacity: 0.95;
+}
+
+#container{
+    background-color: #1B244A;
+    width:575px;
+    height:385px;
+    margin:90px auto;
+    border-radius: 5px; 
+}
+
+#name-tags{
+    font-size:40px;
+    display:flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top:68px;
+    width:404px;
+    line-height: 36px;
+    font-weight: 700;
+    color:#EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#home{
+    width:149px;
+    height:36px;
+    margin-right:106px;
+}
+
+#guest{
+    width:149px;
+    height:36px;
+}
+
+#scores{
+    width:410px;
+    height:120px;
+    display:flex;
+    font-size:90px;
+    font-weight: 400px;
+    line-height: 127px;
+    font-family: cursed;
+    color:#f94f60;
+    justify-content: space-around;
+    margin:21px auto 0 auto;
+    
+}
+
+#home-sc, #guest-sc{
+    width:155px;
+    height:120px;
+    background-color:black;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
+
+#home-sc{
+    margin-right:100px;
+}
+
+#scoring{
+    width:410px;
+    height:45px;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    margin:26px auto 0 auto;
+   
+    
+}
+#home-scoring, #guest-scoring{
+    display:flex;
+    justify-content: space-around;
+    width:155px;
+    
+}
+
+.score-box{
+    border:2px solid #9AABD8;
+    border-radius: 5px;
+    width:45px;
+    height:45px;
+    text-align:center;
+    line-height:28px;
+    color:#9AABD8;
+    font-size:18px;
+    font-weight:400;
+    font-family: cursed;
+    padding-top:9px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.reset{
+    margin:20px auto;
+    display: block;
+    width:100px;
+    text-align: center;
+    font-size:18px;
+    font-weight:bold;
+    cursor: pointer;
+    background-color: transparent;
+    border:2px solid #9AABD8;
+    border-radius:9px;
+    color:#f94f60;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
